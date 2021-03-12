@@ -1,0 +1,21 @@
+// https://www.youtube.com/watch?v=_YV5c9ZR4TE
+
+{
+    "compilerOptions": {
+        "target": "ES2019",                         // Browsers que usam EcmaScript de 2019 pra frente
+        "module": "CommonJs",                       // Sistema de módulos CommonJS
+        "lib": ["ESNext", "DOM"],                   // DOM par usar console.log
+        "outDir": "./dir",                          // Pasta de saída do projeto compilado
+        "rootDir": "./src",                         // Pasta raiz do projeto compilado
+        "removeComments": true,                     // Sem comentários no código compilado
+        "noEmitOnError": true,                      // Nâo emitir erro no código compilado
+        "strict": true,                             // modo estrito de programação
+        "esModuleInterop": true,                    // Interoperabilidade entre CommonJs e o ES6 modules
+        "skipLibCheck": true,                       // Pula a checkagem de declagetion Files .d .ts que geralmente já estão checados
+        "forceConsistentCasingInFileNames": true    // Não permitir referencia inconsistentes para nomes de arquivos.
+    },
+    "include": [
+        "./src"                                     // Checkar a pasta src sempre
+    ]       
+
+}
