@@ -5,7 +5,7 @@
         "target": "ES2019",                         // Browsers que usam EcmaScript de 2019 pra frente
         "module": "CommonJs",                       // Sistema de módulos CommonJS
         "lib": ["ESNext", "DOM"],                   // DOM par usar console.log
-        "outDir": "./dir",                          // Pasta de saída do projeto compilado
+        "outDir": "./dist",                         // Pasta de saída do projeto compilado
         "rootDir": "./src",                         // Pasta raiz do projeto compilado
         "removeComments": true,                     // Sem comentários no código compilado
         "noEmitOnError": true,                      // Nâo emitir erro no código compilado
